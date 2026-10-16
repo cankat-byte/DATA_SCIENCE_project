@@ -33,7 +33,25 @@ Kritik Kurallar:
 5. Yanıtlarını sadece Türkçe olarak ver."
    
 
-*** LLM akışlı yanıt denenebilir( yavaş gelen cevapları hızlı göstermek için)
+*** LLM akışlı yanıt denenebilir( yavaş gelen cevapları hızlı göstermek için) / Deneme 3 sonunda hız yeterli , gerek yok.
+
+
+DENEME 3
+--------
+
+hem pdf parçalama hem de streamlit arayüz oluşumu aşamalarında ;
+
+embeddings model = distiluse-base-multilingual-cased-v1 kullanılacak ( Üstün Türkçe Anlama Yeteneği , Çok Dilli Esneklik- Bilgi Kaybını Önler ,  Bilgi Yoğunluğu ve Hafiflik (Distilled Model)
+
+chunk_size= 1000 , chunk_overlap=250 yapıldı
+app.py llm temperature = 0.0  yapıldı
+
+40 + 5 adet soru testi yapıldı
+
+* Chatbot kapsam genişletme ? düşünülecek ( denizcilik sözleşme metinleri ?)
+  ** COLAB ile arayüz oluşturma (streamlit alternatif) yapılabilir
+    *** Masaüstüne uygulama ( :) yapılabilir
+       
 
 
 
