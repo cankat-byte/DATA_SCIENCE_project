@@ -51,6 +51,8 @@ app.py llm temperature = 0.0  yapıldı
 * Chatbot kapsam genişletme ? düşünülecek ( denizcilik sözleşme metinleri ?)
   ** COLAB ile arayüz oluşturma (streamlit alternatif) yapılabilir
     *** Masaüstüne uygulama ( :) yapılabilir
+
+10 adet test sorusu her çalışstırldığında değişkenlik gösteriyor !!!
        
 
 
