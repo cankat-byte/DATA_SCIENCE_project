@@ -39,7 +39,7 @@ Kritik Kurallar:
 DENEME 3
 --------
 
-hem pdf parçalama hem de streamlit arayüz oluşumu aşamalarında ;
+hem PDF parçalama hem de streamlit arayüz oluşumu aşamalarında ;
 
 embeddings model = distiluse-base-multilingual-cased-v1 kullanılacak ( Üstün Türkçe Anlama Yeteneği , Çok Dilli Esneklik- Bilgi Kaybını Önler ,  Bilgi Yoğunluğu ve Hafiflik (Distilled Model)
 
@@ -53,6 +53,16 @@ app.py llm temperature = 0.0  yapıldı
     *** Masaüstüne uygulama ( :) yapılabilir
 
 10 adet test sorusu her çalışstırldığında değişkenlik gösteriyor !!!
+
+DENEME 4
+--------
+
+PDF parçalama aşaması 5 dk sürüyor. / süreyi azaltmak için daha hızlı ve hafif bir gömme modeli kullanmak!!
+10 adet test soru/cevap son çalıştırmada 1 yanlışa düştü.
+Sadece MARPOL değil başka sözleşme metinlerini de yükleyerek genel denizcilik üzerine bir kurgu planı
+Masaüstüne uygulama arayüzü yapılacak.
+
+
        
 
 
