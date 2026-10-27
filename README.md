@@ -62,6 +62,22 @@ PDF parçalama aşaması 5 dk sürüyor. / süreyi azaltmak için daha hızlı v
 Sadece MARPOL değil başka sözleşme metinlerini de yükleyerek genel denizcilik üzerine bir kurgu planı
 Masaüstüne uygulama arayüzü yapılacak.
 
+DENEME 5
+--------
+* LLM = groq (model="openai/gpt-oss-20b") kullanıldı
+* Embedding - model = "sentence-transformers/distiluse-base-multilingual-cased-v1" / hugging face kullanıldı
+* chunk_size : 800 / chunk_overlap: 200 kullanıldı
+* vektör boyutu: 512 / arama ayarı (k) : 6 kullanıldı
+* rate_limit için = invoke_with_retry fonksiyonu VE yapay gecikme (time.sleep): 3,5sn kullanıldı
+  
+* kütüphaneler ;
+Doküman İşleme ve Veri Hazırlama - pymupdf (PyMuPDFLoader) , langchain-text-splitters (RecursiveCharacterTextSplitter)
+Yapay Zeka, Vektörleştirme ve Gömme (Embedding) - langchain-huggingface (HuggingFaceEmbeddings), sentence-transformers ,
+langchain-core (InMemoryVectorStore)
+Büyük Dil Modeli (LLM) Entegrasyonu - langchain-groq (ChatGroq), groq (RateLimitError)
+Kullanıcı Arayüzü ve Sunum (UI) -  gradio , streamlit , ipywidgets
+
+3 arayüz de başarıyla çalıştırıldı.
 
        
 
