@@ -1,7 +1,7 @@
 # DATA_SCIENCE_project
 MARPOL related RAG CHATBOT
 
-MARPOL metni .pdf kullanılacak
+MARPOL metni .pdf kullanılacak (382 sayfa - Türkçe + İngilizce)
 COLAB da API kullanarak kurgulanacak ve VScode kullanılarak offline versiyon kurgulanacak.
 LLm = Groq kullanılacak (model seçimi ?)
 
@@ -78,6 +78,15 @@ Büyük Dil Modeli (LLM) Entegrasyonu - langchain-groq (ChatGroq), groq (RateLim
 Kullanıcı Arayüzü ve Sunum (UI) -  gradio , streamlit , ipywidgets
 
 3 arayüz de başarıyla çalıştırıldı.
+
+FINAL
+-----
+k= 5 yapıldı
+chatbot ; not olarak, pdf ismi ve sayfa numarlarını getirecek şekilde tekrar kurgulandı (kaynakça notu)
+SOLAS metni eklendi (427 sayfa)
+
+MODEL günlük token limitine takıldı = 200000 :(
+
 
        
 
