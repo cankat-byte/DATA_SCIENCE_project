@@ -82,7 +82,9 @@ Kullanıcı Arayüzü ve Sunum (UI) -  gradio , streamlit , ipywidgets
 FINAL
 -----
 k= 5 yapıldı
+
 chatbot ; not olarak, pdf ismi ve sayfa numarlarını getirecek şekilde tekrar kurgulandı (kaynakça notu)
+
 SOLAS metni eklendi (427 sayfa)
 
 MODEL günlük token limitine takıldı = 200000 :(
